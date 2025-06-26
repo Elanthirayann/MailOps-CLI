@@ -1,0 +1,31 @@
+npm install date-fns dotenv nodemailer node-imap
+
+node email-cli.js send "elanthirayan27@gmail.com" "Test Subject" "Test Body" 
+
+node email-cli.js send "elanthirayan27@gmail.com,elanthirayan30@gmail.com" "Test Subject" "Test Body" "C:\Users\elant\OneDrive\Desktop\meethub.pptx"
+
+node email-cli.js send "elanthirayan27@gmail.com" "Test Subject" "Test Body" "path/to/attachment"
+
+node email-cli.js read latest 15
+
+node email-cli.js read all 2024-10-01 2024-10-04
+
+node email-cli.js read on 2024-10-01
+ 
+node email-cli.js star 1
+
+node email-cli.js fetch starred
+
+node email-cli.js searchsender elanthirayan27@gmail.com
+
+node email-cli.js subject-enhance "leave letter for on week"
+
+node email-cli.js tone-change "hey, got your mail. let's talk." formal // main feature 
+
+node email-cli.js sentiment "I'm so happy with the results!"
+
+node email-cli.js help
+
+cd C:\Users\elant\OneDrive\Desktop\email-cli-tool
+
+
